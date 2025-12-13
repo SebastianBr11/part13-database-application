@@ -10,12 +10,12 @@ insert into
   blogs (author, url, title)
 values
   (
-    "Sebastian",
-    "https://sebastian.de",
-    "Sebastian's Blog"
+    'Sebastian',
+    'https://sebastian.de',
+    'Sebastian''s Blog'
   );
 
 insert into
   blogs (author, url, title)
 values
-  ("Peter", "https://peter.de", "Peter's Blog");
+  ('Peter', 'https://peter.de', 'Peter''s Blog');
