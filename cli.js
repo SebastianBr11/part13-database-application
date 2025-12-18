@@ -1,5 +1,5 @@
 require("dotenv").config();
-const { Blog } = require("./src/sequelize");
+const { Blog } = require("./models");
 
 async function main() {
   const blogs = await Blog.findAll();
