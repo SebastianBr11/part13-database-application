@@ -33,6 +33,7 @@ Blog.init(
     modelName: "blog",
   },
 );
+Blog.sync();
 
 module.exports = {
   sequelize,
